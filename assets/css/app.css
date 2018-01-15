@@ -1,0 +1,36 @@
+/* This file is for your main application css. */
+
+/* Phoenix flash messages */
+.alert:empty { display: none; }
+
+/* Custom page header */
+.logo {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 3em;
+  color: #333;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header {
+  text-align: center;
+}
+
+.book-title {
+  font-weight: bold;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.book-item .amazon-button {
+  margin-top: -6px;
+}
+
+.stars {
+  margin-top: -8px;
+  margin-bottom: 8px;
+}
